@@ -10,7 +10,7 @@
     <main>
         <section>
             <div class="batman-box">
-                <div class="batman-img">
+                <div class="batman-img" id="batman-first">
                     <div class="batman-imagem">
                         <img src="./src/img/Batman.png" alt="Batman">
                     </div>
@@ -20,17 +20,17 @@
         
                     <div class="batman-icon">
                         <!-- icone to home -->
-                        <img class="img-1" src="./src/img/home.svg" alt="">
+                        <img class="img-1" src="./src/img/home.svg" alt="" id="home">
                         <!-- icone para levar para o video -->
-                         <img class="img-2" src="./src/img/movie64.svg" alt="">  
+                         <img class="img-2" src="./src/img/movie64.svg" alt="" id="bat-movie">  
                     </div>
                 </div>
-                <div class="batman-video">
+                <div class="batman-video" id="batman-movie">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/2XJZ3ujBKos?si=er8Qyvvncl33r78K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <div class="batman-icon2">
                         <!-- icone to home -->
-                        <img class="img-3" src="./src/img/home.svg" alt="">
+                        <img class="img-3" src="./src/img/home.svg" alt="" id="home-movie">
                         
                     </div>
                 </div>
@@ -38,9 +38,9 @@
             </div>
         </section>
 
-        <nav>
+        <nav id="nav-none">
             <ul>
-                <img src="./src/img/Batman-btn.png" alt="">
+                <img id="nav-bat" src="./src/img/Batman-btn.png" alt="">
                 <img src="./src/img/Batman-btn.png" alt="">
                 <img src="./src/img/Batman-btn.png" alt="">
                 <img src="./src/img/Batman-btn.png" alt="">
@@ -48,5 +48,7 @@
             </ul>
         </nav>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
