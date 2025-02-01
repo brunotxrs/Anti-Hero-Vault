@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .batman-box {
+    width: 300px;
     height: 100%;
     text-align: center;
 
@@ -7,7 +8,7 @@
         display: none;
         background: url(../img/Batman-background.jpg) no-repeat bottom center;
         background-size: cover;
-        height: 370px;
+        height: 100%;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -33,10 +34,11 @@
         display: flex;
         justify-content: space-between;
         background-color: #ffffff5c;
-        margin-top: 6px;
+        margin-top: 66px;
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
         padding: 0 20px;
+        height: 50px;
     }
 
     .img-1{
@@ -73,6 +75,7 @@
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
         padding: 0 20px;
+        margin-top: 15px;
     }
 
     .img-3{
@@ -81,3 +84,78 @@
     }
 
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape)  {
+    .batman-box {
+        height: 320px;
+        width: 99vw;
+    }
+
+    .batman-box > div.batman-img {
+        display: none;
+        background: url(../img/Batman-background.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .batman-box div.batman-name > p {
+        margin-top: -180px;
+    }
+
+    .batman-box div.batman-icon {
+        margin-top: 25.5px;
+        height: 50px;
+    }
+
+    .batman-box .batman-video {
+        width: 99vw;
+        
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+
+    .batman-box {
+        width: 500px;
+    }
+
+    .batman-box > div.batman-img {
+        display: none;
+        background: url(../img/Batman-background.jpg) no-repeat top bottom;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos para laptops */
+    .batman-box {
+        width: 700px; 
+    }
+
+    .batman-box > div.batman-img {
+        display: none;
+        background: url(../img/Batman-background.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+}
+
+
+@media screen and (min-width: 1441px) {
+    /* Estilos para monitores grandes */
+    .batman-box {
+        width: 700px; 
+    }
+
+    .batman-box > div.batman-img {
+        display: none;
+        background: url(../img/Batman-background.jpg) no-repeat center;
+        background-size: cover;
+    }  
+}
+
+
+  
+  

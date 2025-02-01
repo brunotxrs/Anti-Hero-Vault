@@ -20,14 +20,15 @@ main {
 
     width: 100%;
     height: 100vh;
-
 }
 
 section {
    width: 100%;
    height: 450px;
    padding: 5px;
-
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 nav {
@@ -37,6 +38,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 }
 
 ul {
@@ -48,4 +50,14 @@ ul {
 ul > img {
     width: 3rem;
     height: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+ 
+    section {
+        display: inline;
+        width: 100vw;    
+    }
+   
 }
