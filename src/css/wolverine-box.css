@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.wolverine-box {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    .wolverine-img {
+        display: none;
+        background: url(../img/Wolverine-background.webp) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+   .wolverine-imagem > img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .wolverine-name > p {
+        margin-top: -150px;
+        text-transform: uppercase;
+        font-family: "Bangers", serif;
+        font-size: 4.5em;
+        color: #FFC400;
+        text-shadow: 0 0 5px #000;
+        font-weight: bold;
+
+    }
+
+    .wolverine-icon {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff5c;
+        margin-top: 50px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .img-1{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .img-2 {
+        width: 40px;
+        cursor: pointer;      
+    }
+
+    .wolverine-video {
+        display: none;
+        background: url(../img/Wolverine-background-video.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -220px;
+        border-radius: 5px;
+        outline: 1px solid #fff;
+        
+    }
+
+    .wolverine-video > iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+
+    .wolverine-icon2 {
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff5c;
+        height: 50px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+
+    .img-4{
+        width: 30px;
+        cursor: pointer;
+    }
+
+}
