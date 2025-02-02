@@ -29,7 +29,6 @@ navBat.addEventListener('click' , () => {
   
 });
 
-
 let navWol = document.getElementById('nav-wol');
 let boxWolverine = document.getElementById('box-wolverine');
 navWol.addEventListener('click' , () => {
@@ -84,7 +83,6 @@ navRors.addEventListener('click' , () => {
     });
 });
 
-
 let navVen = document.getElementById('nav-ven');
 let boxVenom = document.getElementById('box-venom');
 navVen.addEventListener('click' , () => {
@@ -108,6 +106,33 @@ navVen.addEventListener('click' , () => {
 
     let venoHome2 = document.getElementById('veno-home-2');
     venoHome2.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+});
+
+let navDead = document.getElementById('nav-dead');
+let boxDeadpool = document.getElementById('box-deadpool');
+navDead.addEventListener('click' , () => {
+    navNone.style.display = 'none';
+    boxDeadpool.style.display ='block';
+
+    let deadpoolFirst = document.getElementById('deadpool-first');
+    deadpoolFirst.style.display = 'block';
+
+    let deadHome = document.getElementById('dead-home-1');
+    deadHome.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+
+    let deadMovie = document.getElementById('dead-movie');
+    deadMovie.addEventListener('click' , () => {
+        let deadpoolMovie = document.getElementById('deadpool-movie');
+        deadpoolMovie.style.display = 'block';
+        deadpoolFirst.style.display = 'none';
+    }); 
+
+    let deadHome2 = document.getElementById('dead-home-2');
+    deadHome2.addEventListener('click' , () => {
         location.href = 'index.html';
     });
 });
