@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.rorschach-box {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    .rorschach-img {
+        display: none;
+        background: url(../img/Rorschach-background.webp) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+   .rorschach-imagem > img {
+        width: 150px;
+        height: 400px;
+    }
+
+    .rorschach-name > p {
+        margin-top: -150px;
+        text-transform: uppercase;
+        font-family: "Special Elite", serif;
+        font-size: 3em;
+        color: #E0E0E0;
+        text-shadow: 0 0 5px #000;
+        font-weight: bold;
+
+    }
+
+    .rorschach-icon {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff5c;
+        margin-top: 86px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .img-1{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .img-2 {
+        width: 40px;
+        cursor: pointer;      
+    }
+
+    .rorschach-video {
+        display: none;
+        background: url(../img/Rorschach-background-video.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 370px;
+        border-radius: 5px;
+        outline: 1px solid #fff;
+        
+    }
+
+    .rorschach-video > iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+
+    .rorschach-icon2 {
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff5c;
+        height: 50px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+
+    .img-4{
+        width: 30px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape)  {
+    .rorschach-box {
+        height: 320px;
+        width: 99vw;
+    }
+
+    .rorschach-box > div.rorschach-img {
+        display: none;
+        background: url(../img/rorschach-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .rorschach-box .rorschach-imagem > img {
+        width: 15%;
+        height: 50%;
+    }
+
+    .rorschach-box div.rorschach-name > p {
+        margin-top: -180px;
+    }
+
+    .rorschach-box div.rorschach-icon {
+        margin-top: 81px;
+        height: 50px;
+    }
+
+    .rorschach-box .rorschach-video {
+        width: 99vw;
+        
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+
+    .rorschach-box {
+        width: 500px;
+    }
+
+    .rorschach-box > div.rorschach-img {
+        display: none;
+        background: url(../img/rorschach-background.webp) no-repeat top bottom;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .rorschach-box .rorschach-imagem > img {
+        width: 30%;
+        height: 50%;
+    }
+
+    .rorschach-box div.rorschach-name > p {
+        margin-top: -180px;
+    }
+
+    .rorschach-box div.rorschach-icon {
+        margin-top: 76px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos para laptops */
+    .rorschach-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.rorschach-img {
+        display: none;
+        background: url(../img/rorschach-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .rorschach-box .rorschach-imagem > img {
+        width: 20%;
+        height: 50%;
+    }
+
+    .rorschach-box div.rorschach-name > p {
+        margin-top: -180px;
+    }
+
+    .rorschach-box div.rorschach-icon {
+        margin-top: 106px;
+        height: 50px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1441px) {
+    /* Estilos para monitores grandes */
+    .rorschach-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.rorschach-img {
+        display: none;
+        background: url(../img/rorschach-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .rorschach-box .rorschach-imagem > img {
+        width: 20%;
+        height: 50%;
+    }
+
+    .rorschach-box div.rorschach-name > p {
+        margin-top: -180px;
+    }
+
+    .rorschach-box div.rorschach-icon {
+        margin-top: 106px;
+        height: 50px;
+    }
+
+}
