@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 .wolverine-box {
+    display: none;
 
     width: 100%;
     height: 100%;
@@ -60,7 +61,6 @@
         background-size: cover;
         width: 100%;
         height: 400px;
-        margin-top: -220px;
         border-radius: 5px;
         outline: 1px solid #fff;
         
@@ -87,6 +87,128 @@
     .img-4{
         width: 30px;
         cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape)  {
+    .wolverine-box {
+        height: 320px;
+        width: 99vw;
+    }
+
+    .wolverine-box > div.wolverine-img {
+        display: none;
+        background: url(../img/Wolverine-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .wolverine-box .wolverine-imagem > img {
+        width: 18%;
+        height: 50%;
+    }
+
+    .wolverine-box div.wolverine-name > p {
+        margin-top: -180px;
+    }
+
+    .wolverine-box div.wolverine-icon {
+        margin-top: 59px;
+        height: 50px;
+    }
+
+    .wolverine-box .wolverine-video {
+        width: 99vw;
+        
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+
+    .wolverine-box {
+        width: 500px;
+    }
+
+    .wolverine-box > div.wolverine-img {
+        display: none;
+        background: url(../img/wolverine-background.webp) no-repeat top bottom;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .wolverine-box .wolverine-imagem > img {
+        width: 35%;
+        height: 50%;
+    }
+
+    .wolverine-box div.wolverine-name > p {
+        margin-top: -180px;
+    }
+
+    .wolverine-box div.wolverine-icon {
+        margin-top: 69px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos para laptops */
+    .wolverine-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.wolverine-img {
+        display: none;
+        background: url(../img/wolverine-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .wolverine-box .wolverine-imagem > img {
+        width: 25%;
+        height: 50%;
+    }
+
+    .wolverine-box div.wolverine-name > p {
+        margin-top: -180px;
+    }
+
+    .wolverine-box div.wolverine-icon {
+        margin-top: 69px;
+        height: 50px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1441px) {
+    /* Estilos para monitores grandes */
+    .wolverine-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.wolverine-img {
+        display: none;
+        background: url(../img/wolverine-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .wolverine-box .wolverine-imagem > img {
+        width: 25%;
+        height: 50%;
+    }
+
+    .wolverine-box div.wolverine-name > p {
+        margin-top: -180px;
+    }
+
+    .wolverine-box div.wolverine-icon {
+        margin-top: 69px;
+        height: 50px;
     }
 
 }
