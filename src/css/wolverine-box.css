@@ -9,7 +9,7 @@
 
     .wolverine-img {
         display: none;
-        background: url(../img/Wolverine-background.webp) no-repeat center center;
+        background: url(../img/wolverine-background.webp) no-repeat center center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -57,7 +57,7 @@
 
     .wolverine-video {
         display: none;
-        background: url(../img/Wolverine-background-video.jpg) no-repeat;
+        background: url(../img/wolverine-background-video.jpg) no-repeat;
         background-size: cover;
         width: 100%;
         height: 400px;
@@ -99,7 +99,7 @@
 
     .wolverine-box > div.wolverine-img {
         display: none;
-        background: url(../img/Wolverine-background.webp) no-repeat center;
+        background: url(../img/wolverine-background.webp) no-repeat center;
         background-size: cover;
         height: 100%;
     }

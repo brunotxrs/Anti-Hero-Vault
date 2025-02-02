@@ -8,7 +8,7 @@
     
     .batman-img {
         display: none;
-        background: url(../img/Batman-background.webp) no-repeat center;
+        background: url(../img/batman-background.webp) no-repeat center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -55,7 +55,7 @@
 
     .batman-video {
         display: none;
-        background: url(../img/Batman-background-video.jpg) no-repeat;
+        background: url(../img/batman-background-video.jpg) no-repeat;
         background-size: cover;
         width: 100%;
         height: 400px;
@@ -97,7 +97,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/Batman-background.webp) no-repeat center;
+        background: url(../img/batman-background.webp) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -132,7 +132,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/Batman-background.webp) no-repeat top bottom;
+        background: url(../img/batman-background.webp) no-repeat top bottom;
         background-size: cover;
         height: 100%;
     }
@@ -165,7 +165,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/Batman-background.webp) no-repeat center;
+        background: url(../img/batman-background.webp) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -200,7 +200,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/Batman-background.webp) no-repeat center;
+        background: url(../img/batman-background.webp) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -225,7 +225,3 @@
     }
 
 }
-
-
-  
-  

@@ -163,7 +163,7 @@
         width: 700px; 
     }
 
-    .wolverine-box > div.venom-img {
+    .venom-box > div.venom-img {
         display: none;
         background: url(../img/venom-background.webp) no-repeat center;
         background-size: cover;
@@ -193,7 +193,7 @@
         width: 700px; 
     }
 
-    .wolverine-box > div.venom-img {
+    .venom-box > div.venom-img {
         display: none;
         background: url(../img/venom-background.webp) no-repeat center;
         background-size: cover;

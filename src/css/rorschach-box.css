@@ -9,7 +9,7 @@
 
     .rorschach-img {
         display: none;
-        background: url(../img/Rorschach-background.webp) no-repeat center center;
+        background: url(../img/rorschach-background.webp) no-repeat center center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -57,7 +57,7 @@
 
     .rorschach-video {
         display: none;
-        background: url(../img/Rorschach-background-video.jpg) no-repeat;
+        background: url(../img/rorschach-background-video.jpg) no-repeat;
         background-size: cover;
         width: 100%;
         height: 370px;
@@ -160,7 +160,7 @@
         width: 700px; 
     }
 
-    .wolverine-box > div.rorschach-img {
+    .rorschach-box > div.rorschach-img {
         display: none;
         background: url(../img/rorschach-background.webp) no-repeat center;
         background-size: cover;
@@ -190,7 +190,7 @@
         width: 700px; 
     }
 
-    .wolverine-box > div.rorschach-img {
+    .rorschach-box > div.rorschach-img {
         display: none;
         background: url(../img/rorschach-background.webp) no-repeat center;
         background-size: cover;
