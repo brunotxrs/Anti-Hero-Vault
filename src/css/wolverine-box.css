@@ -19,7 +19,7 @@
     }
 
    .wolverine-imagem > img {
-        width: 200px;
+        width: 220px;
         height: 400px;
     }
 
@@ -38,7 +38,7 @@
         display: flex;
         justify-content: space-between;
         background-color: #ffffff5c;
-        margin-top: 50px;
+        margin-top: 59px;
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
         padding: 0 20px;
@@ -105,7 +105,7 @@
     }
 
     .wolverine-box .wolverine-imagem > img {
-        width: 18%;
+        width: 130px;
         height: 50%;
     }
 
@@ -114,7 +114,7 @@
     }
 
     .wolverine-box div.wolverine-icon {
-        margin-top: 59px;
+        margin-top: 57px;
         height: 50px;
     }
 
