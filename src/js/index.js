@@ -83,3 +83,31 @@ navRors.addEventListener('click' , () => {
         location.href = 'index.html';
     });
 });
+
+
+let navVen = document.getElementById('nav-ven');
+let boxVenom = document.getElementById('box-venom');
+navVen.addEventListener('click' , () => {
+    navNone.style.display = 'none';
+    boxVenom.style.display ='block';
+
+    let venomFirst = document.getElementById('venom-first');
+    venomFirst.style.display = 'block';
+
+    let venoHome = document.getElementById('veno-home-1');
+    venoHome.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+
+    let venoMovie = document.getElementById('veno-movie');
+    venoMovie.addEventListener('click' , () => {
+        let venomMovie = document.getElementById('venom-movie');
+        venomMovie.style.display = 'block';
+        venomFirst.style.display = 'none';
+    }); 
+
+    let venoHome2 = document.getElementById('veno-home-2');
+    venoHome2.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+});
