@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+.venom-box {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    .venom-img {
+        display: none;
+        background: url(../img/venom-background.webp) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+   .venom-imagem > img {
+        width: 150px;
+        height: 400px;
+    }
+
+    .venom-name > p {
+        margin-top: -250px;
+        text-transform: uppercase;
+        font-family: "Nosifer", serif;
+        font-size: 4em;
+        color: #FFFFFF;
+        text-shadow: 0 0 5px #000;
+        font-weight: bold;
+
+    }
+
+    .venom-icon {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff5c;
+        margin-top: 124px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .img-1{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .img-2 {
+        width: 40px;
+        cursor: pointer;      
+    }
+
+    .venom-video {
+        display: none;
+        background: url(../img/venom-background-video.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 370px;
+        border-radius: 5px;
+        outline: 1px solid #fff;
+        
+    }
+
+    .venom-video > iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+
+    .venom-icon2 {
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff5c;
+        height: 50px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+
+    .img-4{
+        width: 30px;
+        cursor: pointer;
+    }
+
+}
+
+.venom {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape)  {
+    .venom-box {
+        height: 320px;
+        width: 99vw;
+    }
+
+    .venom-box > div.venom-img {
+        display: none;
+        background: url(../img/venom-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .venom-box .venom-imagem > img {
+        width: 180px;
+        height: 50%;
+    }
+
+    .venom-box div.venom-name > p {
+        margin-top: -200px;
+    }
+
+    .venom-box div.venom-icon {
+        margin-top: 35px;
+        height: 50px;
+    }
+
+    .venom-box .venom-video {
+        width: 99vw;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+
+    .venom-box {
+        width: 500px;
+    }
+
+    .venom-box > div.venom-img {
+        display: none;
+        background: url(../img/venom-background.webp) no-repeat top bottom;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .venom-box .venom-imagem > img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .venom-box div.venom-name > p {
+        margin-top: -250px;
+    }
+
+    .venom-box div.venom-icon {
+        margin-top: 80px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos para laptops */
+    .venom-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.venom-img {
+        display: none;
+        background: url(../img/venom-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .venom-box .venom-imagem > img {
+        width: 35%;
+        height: 50%;
+    }
+
+    .venom-box div.venom-name > p {
+        margin-top: -300px;
+    }
+
+    .venom-box div.venom-icon {
+        margin-top: 140px;
+        height: 50px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1441px) {
+    /* Estilos para monitores grandes */
+    .venom-box {
+        width: 700px; 
+    }
+
+    .wolverine-box > div.venom-img {
+        display: none;
+        background: url(../img/venom-background.webp) no-repeat center;
+        background-size: cover;
+        height: 100%
+    }
+
+    .venom-box .venom-imagem > img {
+        width: 35%;
+        height: 50%;
+    }
+
+    .venom-box div.venom-name > p {
+        margin-top: -300px;
+    }
+
+    .venom-box div.venom-icon {
+        margin-top: 140px;
+        height: 50px;
+    }
+}
