@@ -9,7 +9,7 @@
 
     .deadpool-img {
         display: none;
-        background: url(../img/deadpool-background.png) no-repeat center center;
+        background: url(../img/deadpool-background500x286.png) no-repeat center center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -104,7 +104,7 @@
 
     .deadpool-box > div.deadpool-img {
         display: none;
-        background: url(../img/deadpool-background.png) no-repeat center;
+        background: url(../img/deadpool-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -138,7 +138,7 @@
 
     .deadpool-box > div.deadpool-img {
         display: none;
-        background: url(../img/deadpool-background.png) no-repeat top bottom;
+        background: url(../img/deadpool-background500x286.png) no-repeat top bottom;
         background-size: cover;
         height: 100%;
     }
@@ -166,7 +166,7 @@
 
     .deadpool-box > div.deadpool-img {
         display: none;
-        background: url(../img/deadpool-background.png) no-repeat center;
+        background: url(../img/deadpool-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -196,7 +196,7 @@
 
     .deadpool-box > div.deadpool-img {
         display: none;
-        background: url(../img/deadpool-background.png) no-repeat center;
+        background: url(../img/deadpool-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%
     }

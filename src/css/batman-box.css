@@ -8,7 +8,7 @@
     
     .batman-img {
         display: none;
-        background: url(../img/batman-background.png) no-repeat center;
+        background: url(../img/batman-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -97,7 +97,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/batman-background.png) no-repeat center;
+        background: url(../img/batman-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -132,7 +132,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/batman-background.png) no-repeat top bottom;
+        background: url(../img/batman-background500x286.png) no-repeat top bottom;
         background-size: cover;
         height: 100%;
     }
@@ -165,7 +165,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/batman-background.png) no-repeat center;
+        background: url(../img/batman-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -200,7 +200,7 @@
 
     .batman-box > div.batman-img {
         display: none;
-        background: url(../img/batman-background.png) no-repeat center;
+        background: url(../img/batman-background500x286.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
