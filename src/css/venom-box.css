@@ -9,7 +9,7 @@
 
     .venom-img {
         display: none;
-        background: url(../img/venom-background.webp) no-repeat center center;
+        background: url(../img/venom-background.png) no-repeat center center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -103,7 +103,7 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background.webp) no-repeat center;
+        background: url(../img/venom-background.png) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -137,7 +137,7 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background.webp) no-repeat top bottom;
+        background: url(../img/venom-background.png) no-repeat top bottom;
         background-size: cover;
         height: 100%;
     }
@@ -165,7 +165,7 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background.webp) no-repeat center;
+        background: url(../img/venom-background.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -195,7 +195,7 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background.webp) no-repeat center;
+        background: url(../img/venom-background.png) no-repeat center;
         background-size: cover;
         height: 100%
     }

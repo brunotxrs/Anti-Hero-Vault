@@ -9,7 +9,7 @@
 
     .rorschach-img {
         display: none;
-        background: url(../img/rorschach-background.webp) no-repeat center center;
+        background: url(../img/rorschach-background.png) no-repeat center center;
         background-size: cover;
         height: 100%;
         border-top-left-radius: 5px;
@@ -99,7 +99,7 @@
 
     .rorschach-box > div.rorschach-img {
         display: none;
-        background: url(../img/rorschach-background.webp) no-repeat center;
+        background: url(../img/rorschach-background.png) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -134,7 +134,7 @@
 
     .rorschach-box > div.rorschach-img {
         display: none;
-        background: url(../img/rorschach-background.webp) no-repeat top bottom;
+        background: url(../img/rorschach-background.png) no-repeat top bottom;
         background-size: cover;
         height: 100%;
     }
@@ -162,7 +162,7 @@
 
     .rorschach-box > div.rorschach-img {
         display: none;
-        background: url(../img/rorschach-background.webp) no-repeat center;
+        background: url(../img/rorschach-background.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
@@ -192,7 +192,7 @@
 
     .rorschach-box > div.rorschach-img {
         display: none;
-        background: url(../img/rorschach-background.webp) no-repeat center;
+        background: url(../img/rorschach-background.png) no-repeat center;
         background-size: cover;
         height: 100%
     }
