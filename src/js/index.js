@@ -1,7 +1,9 @@
 let navNone = document.getElementById('nav-none');
 let navBat = document.getElementById('nav-bat');
+let boxBatman = document.getElementById('box-batman');
 navBat.addEventListener('click' , () => {
     navNone.style.display = 'none';
+    boxBatman.style.display = 'block';
 
     let batmanFirst = document.getElementById('batman-first');
     batmanFirst.style.display = 'block';
@@ -29,8 +31,10 @@ navBat.addEventListener('click' , () => {
 
 
 let navWol = document.getElementById('nav-wol');
+let boxWolverine = document.getElementById('box-wolverine');
 navWol.addEventListener('click' , () => {
     navNone.style.display = 'none';
+    boxWolverine.style.display ='block';
 
     let wolverineFirst = document.getElementById('wolverine-first');
     wolverineFirst.style.display = 'block';
@@ -53,3 +57,29 @@ navWol.addEventListener('click' , () => {
     });
 });
 
+let navRors = document.getElementById('nav-rors');
+let boxRorschach = document.getElementById('box-rorschach');
+navRors.addEventListener('click' , () => {
+    navNone.style.display = 'none';
+    boxRorschach.style.display ='block';
+
+    let rorschachFirst = document.getElementById('rorschach-first');
+    rorschachFirst.style.display = 'block';
+
+    let rorsHome = document.getElementById('rors-home-1');
+    rorsHome.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+
+    let rorsMovie = document.getElementById('rors-movie');
+    rorsMovie.addEventListener('click' , () => {
+        let rorschachMovie = document.getElementById('rorschach-movie');
+        rorschachMovie.style.display = 'block';
+        rorschachFirst.style.display = 'none';
+    }); 
+
+    let rorsHome2 = document.getElementById('rors-home-2');
+    rorsHome2.addEventListener('click' , () => {
+        location.href = 'index.html';
+    });
+});
