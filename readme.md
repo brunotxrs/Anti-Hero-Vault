@@ -32,11 +32,12 @@ ANTI-HERO VAULT/
 │   │   ├── styles.css
 │   │   ├── venom-box.css
 │   │   └── wolverine-box.css
-│   └── img/                # Imagens dos personagens e ícones
+│   ├── favicon/            # Favicon
+│   ├── img/                # Imagens dos personagens e ícones
 │   └── js/
-│       └──index.js        # Scripts principais
+│       └──index.js         # Scripts principais
 │── index.html              # Página principal
-│── LICENSE
+│── LICENSE                 # MIT License
 └── README.md               # Documentação do projeto
 ```
 
@@ -52,7 +53,7 @@ ANTI-HERO VAULT/
 1. Clone este repositório:  
 
    ```sh
-   git clone https://github.com/brunotxrs/anti-hero-vault.git
+   git clone https://github.com/brunotxrs/Anti-Hero-Vault
    ```
 
 2. Abra o arquivo `index.html` no navegador para visualizar o projeto.  
