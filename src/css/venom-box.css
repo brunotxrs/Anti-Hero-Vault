@@ -9,8 +9,7 @@
 
     .venom-img {
         display: none;
-        background: url(../img/venom-background500x286.png) no-repeat center center;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
         height: 100%;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -57,8 +56,7 @@
 
     .venom-video {
         display: none;
-        background: url(../img/venom-background-video.jpg) no-repeat;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
         width: 100%;
         height: 370px;
         border-radius: 5px;
@@ -103,8 +101,8 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background500x286.png) no-repeat center;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
+
         height: 100%;
     }
 
@@ -137,8 +135,8 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background500x286.png) no-repeat top bottom;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
+
         height: 100%;
     }
 
@@ -165,8 +163,8 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background500x286.png) no-repeat center;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
+
         height: 100%
     }
 
@@ -195,8 +193,8 @@
 
     .venom-box > div.venom-img {
         display: none;
-        background: url(../img/venom-background500x286.png) no-repeat center;
-        background-size: cover;
+        background: linear-gradient(135deg, #000000 20%, #1a1a1a 40%, #3d0075 80%);
+
         height: 100%
     }
 
